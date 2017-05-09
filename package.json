@@ -4,7 +4,7 @@
   "description": "Adds image links to the description of all your Flickr photos.",
   "main": "index.js",
   "bin": {
-    "flickrlinkr" : "./index.js"
+    "flickrlinkr": "./index.js"
   },
   "engines": {
     "node": "^6.10.2",
@@ -14,12 +14,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jack828/flickr-linkr"
+    "type": "git",
+    "url": "https://github.com/jack828/flickr-linkr"
   },
   "author": "Jack Burgess <jackburgess124@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.9.0",
     "flickrapi": "^0.6.0"
   }
 }
